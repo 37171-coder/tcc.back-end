@@ -4,13 +4,15 @@
   "description": "Sistema de login, cadastro e exclusão de usuário com banco de dados",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.0",
     "body-parser": "^1.20.0",
+    "dotenv": "^17.4.2",
     "express": "^4.19.0",
     "express-session": "^1.9.0",
-    "sqlite3": "^6.0.1"
+    "mysql2": "^3.24.4"
   }
 }
