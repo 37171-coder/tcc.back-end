@@ -8,11 +8,24 @@
     "dev": "node server.js"
   },
   "dependencies": {
-    "bcryptjs": "^2.4.0",
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.0",
+    "cors": "^2.8.6",
     "dotenv": "^17.4.2",
-    "express": "^4.19.0",
-    "express-session": "^1.9.0",
-    "mysql2": "^3.24.4"
-  }
+    "express": "^4.22.3",
+    "express-session": "^1.19.0",
+    "mysql2": "^3.24.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/37171-coder/tcc.back-end.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/37171-coder/tcc.back-end/issues"
+  },
+  "homepage": "https://github.com/37171-coder/tcc.back-end#readme"
 }
